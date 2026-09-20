@@ -1,0 +1,10 @@
+package com.ute.studentprofilecard.model
+
+data class Student(
+    val id: String,
+    val name: String,
+    val className: String,
+    val email: String,
+    val phone: String,
+    val gpa: Double = 0.0
+)
